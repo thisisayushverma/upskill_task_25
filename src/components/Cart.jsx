@@ -1,5 +1,3 @@
-import { useState } from "react"
-import useCartContext from "../context/cartContext";
 import "../App.css"
 import { useDispatch } from "react-redux";
 import { addToCart, removeToCart } from "../redux/cartSlice";

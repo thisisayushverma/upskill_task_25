@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { PaymentCart } from '../Cart'
-import useCartContext from '../../context/cartContext';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 

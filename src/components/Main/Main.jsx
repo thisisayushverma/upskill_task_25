@@ -1,9 +1,8 @@
-import { React, useContext, useState } from 'react'
+import { React } from 'react'
 import Card from '../Card'
 import Cart from '../Cart'
 import "../../App.css"
 import { Link } from 'react-router-dom'
-import useCartContext from '../../context/cartContext.js'
 import { useSelector } from 'react-redux'
 
 function Main() {

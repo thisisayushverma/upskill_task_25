@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux';
 import '../App.css'
-import useCartContext from '../context/cartContext';
 import { addOnlyOnce } from '../redux/cartSlice';
 
 function Card({item}){
